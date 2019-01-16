@@ -13,7 +13,11 @@ class Driver{
 constructor(name, x,y,z){
 this.name = name;
 this.startDate = new Date(x,y,z);
+this.yearsExperienceFromBeginningOf(l){
+let h =  Math.abs(l - this.startDate)
+return h
+}
+}
+}
 
-}
-}
 
